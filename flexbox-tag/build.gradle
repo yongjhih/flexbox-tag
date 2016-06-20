@@ -23,6 +23,7 @@ android {
 
 dependencies {
   compile deps.annotations
+  testCompile deps.flexbox
 
   testCompile deps.junit
   testCompile deps.assertj
